@@ -8,7 +8,7 @@ function Card({ card }) {
       <div className="card" key={card?.id}>
         <div className="card-body">
           <img src={card?.image} alt={card?.name} width={60} />
-          <h5 className="card-title">{card?.name}</h5>
+          <span className="span1 card-title">{card?.name}</span>
           <p className="card-text">${card?.current_price?.toString()}</p>
           <p>Today Rate</p>
           <div className="Rate d-inline-flex align-items-center gap-2">

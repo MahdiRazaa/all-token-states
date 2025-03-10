@@ -34,7 +34,7 @@ const TokenDetails = ({ apiData }) => {
               <p>
                 <Public /> Total Volume: ${card?.total_volume}
               </p>
-              <p>Total Supply: {card?.total_supply}</p>
+              <p><Public />Total Supply: {card?.total_supply}</p>
             </div>
           </div>
           <div className="token-img">

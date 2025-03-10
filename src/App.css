@@ -153,9 +153,6 @@
   }
 }
 
-/* Media Queries for Responsiveness */
-
-/* Tablets and Below */
 @media (max-width: 768px) {
   .token-card {
     flex-direction: column;
@@ -200,7 +197,6 @@
   }
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 480px) {
   .token-info h2 {
     font-size: 1.4rem;

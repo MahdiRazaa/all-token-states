@@ -34,7 +34,8 @@ input {
   color: #ddd;
   background: transparent;
   padding-left: 10px;
-  text-transform: ca;
+  text-transform: capitalize;
+ 
 }
 
 input:hover {
@@ -52,6 +53,7 @@ input:hover {
   border: none !important;
   font-size: 0.9rem !important;
   font-weight: 600 !important;
+  transition: all 0.5s ease-in;
 }
 
 .input-btn:hover {
@@ -92,7 +94,8 @@ input:hover {
   border: 2px solid #fcd535;
   color: black;
   border-radius: 20px;
-  font-size: 1rem;
+  font-weight: 900;
+  font-size: 1.2rem;
   margin: 5px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: cardEntrance 0.5s ease-out both;
@@ -104,8 +107,16 @@ input:hover {
   align-items: center;
   justify-content: center;
   padding-top: 30px;
+  min-height: 200px;
   gap: 10px;
+  font-size: 1rem;
+  font-weight: 650;
   color: #1f2641;
+}
+
+.span1{
+  font-size: 0.86rem;
+  font-weight: 750;
 }
 
 .card-img {
@@ -121,6 +132,7 @@ input:hover {
   padding-right: 15px;
   background-color: #fcd535;
   color: black;
+  font-weight: 500;
   font-size: 1rem;
   border-radius: 10px;
   outline: none;
@@ -170,6 +182,7 @@ input:hover {
   justify-content: center;
 }
 
+
 .g-btn {
   width: 100px;
   height: 45px;
@@ -181,6 +194,14 @@ input:hover {
   font-size: 1rem;
   font-weight: 600;
   outline: none;
+}
+
+.g-btn:hover{
+  cursor: pointer;
+  background-color: black;
+  color: #fcd535;
+  border: 2px solid #fcd535;
+  transition: all 0.2s ease;
 }
 
 .token-details {
@@ -228,7 +249,7 @@ input:hover {
 
 .token-info .pricing-info p {
   font-size: 1.1rem;
-  color: #666;
+  color: black;
 }
 
 .token-img {
@@ -249,6 +270,8 @@ input:hover {
 .token-stats {
   width: 100%;
   margin-top: 20px;
+  overflow: hidden;
+  border: 2px solid black;
 }
 
 .token-stats table {
@@ -279,7 +302,7 @@ input:hover {
 
 .token-stats th,
 .token-stats td {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
 }
 
 .error-message {
@@ -321,12 +344,20 @@ thead {
   width: 100px;
   height: 50px;
   padding: 10px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   background-color: #fcd535;
   color: #1f2641;
   border-radius: 10px;
   border: none;
   outline: none;
+}
+
+.Back-btn:hover{
+  cursor: pointer;
+  background-color: black;
+  color: #fcd535;
+  border: 2px solid #fcd535;
 }
 
 .footer {
